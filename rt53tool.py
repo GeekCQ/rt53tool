@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Route 53 Management Tool (rt53tool)
 

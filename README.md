@@ -3,8 +3,11 @@
 
 **rt53tool** is a versatile command-line tool designed for efficiently managing AWS Route 53 records. It allows users to interact directly with Route 53 services, providing functionalities such as listing hosted zones, showing current DNS records, updating TTL values, adding, updating, and deleting DNS records, and generating detailed reports of DNS configurations.
 
-# Why?
-As some of you may know, using the AWS CLI can, at times, be a bit cumbersome; especially at three in the morning when your're troubleshooting a prod outage.  DNS/Route53, for me is one of those things, I use, but in a "set it up securely and let IAC handle the rest" way.  This tool started out as abash script, then moved to python as maintaining the nested logic and external parsing requirements, made it rediculous to maintain. In trying to avoid that I decided to use a modular/extensible approachh, so the script functioanlity could be evolved easily.  
+##Why This Tool?##
+
+Many of you might relate to the challenges of using the AWS CLI, especially during critical times like troubleshooting a production outage at three in the morning. Managing DNS and Route 53 is one of those tasks that, for me, fits into the category of "set it up securely and let Infrastructure as Code (IAC) do the rest." It's crucial but not something I interact with daily anymore.
+
+This tool began its life as a Bash script. However, as it grew, the complexity of maintaining nested logic and handling external parsing requirements became rediculous. To circumvent these challenges and avoid managing an unwieldy 'timesaver' script, I shifted to Python and adopted a modular and extensible design. This approach allows for the easy evolution of the script's functionality, making it more manageable and adaptable to changing needs. My goal was to create a tool that offers a more user-friendly and efficient way to interact with AWS Route 53, especially during those critical moments when every second counts.
 
 ## Key Features:
 - **List Hosted Zones**: Quickly retrieve all hosted zones within your AWS Route 53.

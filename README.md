@@ -3,7 +3,7 @@
 
 **rt53tool** is a versatile command-line tool designed for efficiently managing AWS Route 53 records. It allows users to interact directly with Route 53 services, providing functionalities such as listing hosted zones, showing current DNS records, updating TTL values, adding, updating, and deleting DNS records, and generating detailed reports of DNS configurations.
 
-##Why This Tool?##
+## Why This Tool? ##
 
 Many of you might relate to the challenges of using the AWS CLI, especially during critical times like troubleshooting a production outage at three in the morning. Managing DNS and Route 53 is one of those tasks that, for me, fits into the category of "set it up securely and let Infrastructure as Code (IAC) do the rest." It's crucial but not something I interact with daily anymore.
 

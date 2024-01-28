@@ -42,20 +42,20 @@ This project is a work in progress (WIP). Best efforts are made to test the tool
 Clone the repository:
 
 ```
-https://github.com/tmlgcq/rt53tool.git
-cd rt53tool
+$ git clone https://github.com/GeekCQ/rt53tool.git
+$ cd rt53tool
 ```
 
 Install required libraries:
 
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Run the tool:
 
 ```
-python rt53tool.py --profile PROFILE_NAME --action ACTION --zone-id ZONE_ID [OTHER OPTIONS]
+$ ./rt53tool.py --profile PROFILE_NAME --action ACTION --zone-id ZONE_ID [OTHER OPTIONS]
 ```
 
 Replace `PROFILE_NAME` with your AWS CLI profile name, `ACTION` with the desired action, and `ZONE_ID` with the hosted zone ID. Additional options depend on the chosen action.
